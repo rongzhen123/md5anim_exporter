@@ -1,0 +1,51 @@
+﻿生成启动时间为 2019/7/1 13:12:52。
+     1>项目“D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\md5animation_exporter.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Autodesk\3ds Max 2014 SDK\\include" /Zi /nologo /W4 /WX- /MP /Od /D _USRDLL /D _ADESK_3DSMAX_WINDOWS_ /D WINVER=0x0502 /D _WIN32_WINNT=0x0502 /D _WIN32_WINDOWS=0x0502 /D _WIN32_IE=0x0800 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D ISOLATION_AWARE_ENABLED=1 /D MODULE_NAME=md5animation_exporter.dle /D _DEBUG /D WIN32 /D WIN64 /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHa /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\\" /Fd"D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\vc100.pdb" /Gd /TP /FC /errorReport:prompt md5animation_exporter.cpp /GR /we4706 /we4390 /we4557 /we4546 /we4545 /we4295 /we4310 /we4130 /we4611 /we4213 /we4121 /we4715 /w34701 /w34265 /wd4244 /wd4018 /wd4819 
+         md5animation_exporter.cpp
+     1>d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(231): warning C4100: “ei”: 未引用的形参
+     1>d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(285): warning C4100: “NodeIndex”: 未引用的形参
+     1>d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(320): warning C4100: “obj”: 未引用的形参
+     1>d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(381): warning C4100: “obj”: 未引用的形参
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(750): TODO: Returns the number of file name extensions supported by the plug-in.
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(756): TODO: Return the 'i-th' file name extension (i.e. "3DS").
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(762): TODO: Return long ASCII description (i.e. "Targa 2.0 Image File")
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(768): TODO: Return short ASCII description (i.e. "Targa")
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(774): TODO: Return ASCII Author name
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(780): TODO: Return ASCII Copyright message
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(798): TODO: Return Version number * 100 (i.e. v3.01 = 301)
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(809): TODO: Decide which options to support.  Simply return true for each option supported by each Extension the exporter supports.
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(816): TODO: Implement the actual file Export here and
+         d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(853): TODO: return TRUE If the file is exported properly
+     1>d:\reference\code\3dsmax\md5animation_exporter\md5animation_exporter\md5animation_exporter.cpp(814): warning C4100: “options”: 未引用的形参
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle" /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\3ds Max 2014 SDK\lib\x64\Debug\\" core.lib geom.lib gfx.lib mesh.lib maxutil.lib maxscrpt.lib paramblk2.lib igame.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"md5animation_exporter.def" /MANIFEST /ManifestFile:"D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.dle.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle.pdb" /PDBSTRIPPED:"C:\Program Files\Autodesk\3ds Max 2014 SDK\\pdb\x64\Debug\md5animation_exporter.dle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\\md5animation_exporter.lib" /MACHINE:X64 /DLL D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.res
+         D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.obj
+         D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\DllEntry.obj
+         LINK : 没有找到 C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\\md5animation_exporter.lib 和对象 D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\\md5animation_exporter.exp
+         md5animation_exporter.vcxproj -> C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle;#2" /manifest D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.dle.intermediate.manifest
+       PostBuildEvent:
+         "C:\Program Files\Autodesk\3ds Max 2014 SDK\tools\RunMUIRCT.exe" "C:\Program Files\Autodesk\3ds Max 2014\plugins\\" md5animation_exporter.dle
+         :VCEnd
+         ==== RunMUIRCT: Start ====
+         RunMUIRCT: WARNING - Could not find version info in file: C:\Program Files\Autodesk\3ds Max 2014\plugins\md5animation_exporter.dle
+         
+         There is no version resource in the file 
+         Language neutral file (C:\Program Files\Autodesk\3ds Max 2014\plugins\en-US\md5animation_exporter.dle.ln) successfully created
+         MUI file (C:\Program Files\Autodesk\3ds Max 2014\plugins\en-US\md5animation_exporter.dle.mui) successfully created 
+         ==== RunMUIRCT: Successs ====
+       FinalizeBuildStatus:
+         正在删除文件“D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.unsuccessfulbuild”。
+         正在对“D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\\obj\x64\Debug\md5animation_exporter.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Reference\Code\3DSMAX\md5animation_exporter\md5animation_exporter\md5animation_exporter.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.99
